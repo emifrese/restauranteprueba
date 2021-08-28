@@ -329,6 +329,9 @@ footer .copyright {
   header .textos h3 {
     display: none;
   }
+  .contenedor .menu {
+    display: none;
+  }
   .main .acerca-de article h3 {
     font-size: 34px;
     margin-bottom: 10px;
