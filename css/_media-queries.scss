@@ -1,0 +1,142 @@
+$breakpoint-tablet: 800px;
+$breakpoint-smartphone: 400px;
+
+@media screen and (max-width: $breakpoint-tablet) {
+    header {
+        .contenedor {
+        position: static;
+        height: auto;
+        }
+
+        .textos {
+            position: static;
+            margin: 100px 0;
+
+            .nombre {
+            font-size: 30px;
+            }
+
+            h3 {
+            font-size: 18px;
+            }
+        }
+
+        .menu {
+            text-align: center;
+
+            a {
+                margin: 10px 20px;
+            }
+        }
+    }
+    
+    .main {
+
+        .acerca-de {
+            
+            .foto {
+                width: 100%;
+                position: relative;
+            }
+
+            article {
+                position: relative;
+                width: 100%;
+                top: -50px;
+                transform: translate(0px, 0);
+            }
+        }
+
+        .menu {
+            padding-top: 300px;
+
+            article {
+                width: 100%;
+            }
+        }
+    
+        .galeria {
+            
+            .foto {
+                width: 50%;
+            }
+        }
+
+        .mapa {
+            width: 80%;
+            margin: auto;
+            margin-bottom: -5px;
+        }
+    }
+}
+
+@media screen and (max-width: $breakpoint-smartphone) {
+
+header {
+
+    .menu {
+
+        a {
+            width: 35%;
+        }
+    }
+
+    .textos {
+
+        .nombre {
+            text-align: center;
+            width: 100%;
+        }
+
+        h3 {
+        display: none;
+        }
+    }
+}
+
+.main {
+
+    .acerca-de {
+
+        article { 
+
+            h3 {
+                font-size: 34px;
+                margin-bottom: 10px;
+            }
+
+        }
+    }
+
+    .menu {
+
+        article {
+
+            .nombre, .precio { 
+                font-size: 16px;
+                line-height: 16px;
+            }
+        }
+    }
+    
+    .ubicacion {
+
+        .direccion, .horarios {
+            width: 100%;
+            text-align: center;
+        }
+
+        .direccion {
+            margin-bottom: 20px;
+        }
+    }
+
+    .mapa {
+        max-height: 400px;
+
+        iframe {
+            max-height: 400px;
+        }
+    }
+}
+}

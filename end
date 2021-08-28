@@ -1,0 +1,76 @@
+[33mcommit d27bfca6d2b8ee0e92db0a5737b86aab09debdbe[m[33m ([m[1;36mHEAD[m[33m)[m
+Author: Emiliano Frese <emilianomartindominguezfrese@gmail.com>
+Date:   Sat Aug 28 17:15:10 2021 -0300
+
+    Agregando archivos restantes para JJLomas
+
+ css/_footer.scss                    |   9 [32m+[m
+ css/_header.scss                    |  54 [32m++++++[m
+ css/_main.scss                      | 188 [32m+++++++++++++++++++[m
+ css/_media-queries.scss             | 142 [32m+++++++++++++++[m
+ css/estilos.css                     | 354 [32m++++++++++++++++++++++++++++++++++++[m
+ css/estilos.css.map                 |  13 [32m++[m
+ css/estilos.scss                    |  25 [32m+++[m
+ img/1.jpg                           | Bin [31m0[m -> [32m102261[m bytes
+ img/12.jpg                          | Bin [31m0[m -> [32m242067[m bytes
+ img/2.jpg                           | Bin [31m0[m -> [32m41329[m bytes
+ img/3.jpg                           | Bin [31m0[m -> [32m44212[m bytes
+ img/4.jpg                           | Bin [31m0[m -> [32m49368[m bytes
+ img/5.jpg                           | Bin [31m0[m -> [32m49705[m bytes
+ img/6.jpg                           | Bin [31m0[m -> [32m38180[m bytes
+ img/7.jpg                           | Bin [31m0[m -> [32m32211[m bytes
+ img/8.jpg                           | Bin [31m0[m -> [32m112297[m bytes
+ img/acerca-de.jpg                   | Bin [31m0[m -> [32m125690[m bytes
+ img/acerca-de2.jpg                  | Bin [31m0[m -> [32m136097[m bytes
+ img/cc.jpg                          | Bin [31m0[m -> [32m104435[m bytes
+ img/ee.jpg                          | Bin [31m0[m -> [32m154918[m bytes
+ img/fondo.jpg                       | Bin [31m0[m -> [32m123462[m bytes
+ img/fondo1.png                      | Bin [31m0[m -> [32m3428194[m bytes
+ img/logo-lomas.jpg                  | Bin [31m0[m -> [32m88805[m bytes
+ img/logo-lomas2-modified.png        | Bin [31m0[m -> [32m174182[m bytes
+ img/logo-lomas2.png                 | Bin [31m0[m -> [32m167399[m bytes
+ img/originals/1.jpg                 | Bin [31m0[m -> [32m220261[m bytes
+ img/originals/2.jpg                 | Bin [31m0[m -> [32m285215[m bytes
+ img/originals/3.jpg                 | Bin [31m0[m -> [32m204727[m bytes
+ img/originals/4.jpg                 | Bin [31m0[m -> [32m203863[m bytes
+ img/originals/5.jpg                 | Bin [31m0[m -> [32m180481[m bytes
+ img/originals/6.jpg                 | Bin [31m0[m -> [32m145953[m bytes
+ img/originals/7.jpg                 | Bin [31m0[m -> [32m179414[m bytes
+ img/originals/8.jpg                 | Bin [31m0[m -> [32m191352[m bytes
+ img/resize-nd-compress/1.jpg        | Bin [31m0[m -> [32m102261[m bytes
+ img/resize-nd-compress/2.jpg        | Bin [31m0[m -> [32m41329[m bytes
+ img/resize-nd-compress/3.jpg        | Bin [31m0[m -> [32m44212[m bytes
+ img/resize-nd-compress/4.jpg        | Bin [31m0[m -> [32m49368[m bytes
+ img/resize-nd-compress/5.jpg        | Bin [31m0[m -> [32m49705[m bytes
+ img/resize-nd-compress/6.jpg        | Bin [31m0[m -> [32m38180[m bytes
+ img/resize-nd-compress/7.jpg        | Bin [31m0[m -> [32m32211[m bytes
+ img/resize-nd-compress/8.jpg        | Bin [31m0[m -> [32m112297[m bytes
+ img/resize-nd-compress/tinified.zip | Bin [31m0[m -> [32m470401[m bytes
+ img/resize/1.jpg                    | Bin [31m0[m -> [32m201415[m bytes
+ img/resize/2.jpg                    | Bin [31m0[m -> [32m175071[m bytes
+ img/resize/3.jpg                    | Bin [31m0[m -> [32m192184[m bytes
+ img/resize/4.jpg                    | Bin [31m0[m -> [32m197585[m bytes
+ img/resize/5.jpg                    | Bin [31m0[m -> [32m176523[m bytes
+ img/resize/6.jpg                    | Bin [31m0[m -> [32m154026[m bytes
+ img/resize/7.jpg                    | Bin [31m0[m -> [32m154400[m bytes
+ img/resize/8.jpg                    | Bin [31m0[m -> [32m184298[m bytes
+ img/textura.jpg                     | Bin [31m0[m -> [32m1533393[m bytes
+ img/textura1.png                    | Bin [31m0[m -> [32m81227[m bytes
+ img/textura3.jpg                    | Bin [31m0[m -> [32m3423264[m bytes
+ img/textura4.jpg                    | Bin [31m0[m -> [32m3056898[m bytes
+ img/tres-lineas.jpg                 | Bin [31m0[m -> [32m5366[m bytes
+ img/z.jpg                           | Bin [31m0[m -> [32m197169[m bytes
+ img/zz.jpg                          | Bin [31m0[m -> [32m169289[m bytes
+ js/efectos.js                       |  69 [32m+++++++[m
+ js/jquery-min.js                    |   2 [32m+[m
+ js/parallax.js                      |  34 [32m++++[m
+ 60 files changed, 890 insertions(+)
+
+[33mcommit 5a6ecc98b75c7c4dbd60738dc515ae8a5ef746bf[m
+Author: Emiliano Frese <emilianomartindominguezfrese@gmail.com>
+Date:   Mon Aug 23 17:54:23 2021 -0300
+
+    Agregando Pagina JJBLomas.01
+
+ index.html | 171 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ 1 file changed, 171 insertions(+)
